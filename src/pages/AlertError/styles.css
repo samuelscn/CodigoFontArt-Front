@@ -1,0 +1,6 @@
+.alert-danger {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    margin-top: 30px;
+}

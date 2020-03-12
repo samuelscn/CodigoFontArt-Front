@@ -1,0 +1,55 @@
+#body-carrinho {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#body-info-carrinho {
+    
+    width: 90%;
+}
+
+#info-carrinho {
+    margin-top: 20px;
+    padding: 10px;
+    background: rgb(99,19,135);
+    background: linear-gradient(90deg, rgba(99,19,135,1) 4%, rgba(93,5,168,1) 38%, rgba(129,10,187,1) 78%);
+    color: white;
+}
+#info-carrinho text {
+    margin-left: 60px;
+}
+
+#text-produto {
+    margin-right: 10%;
+}
+
+#infozao img {
+    padding: 15px;
+    max-width:150px;
+    max-height:100px;
+    width: auto;
+    height: auto;
+}
+
+#infozao {
+    display: flex;
+    justify-content: space-between;
+}
+
+#infozao text{
+    padding: 40px;
+}
+
+#text-title{
+    max-height: 20px;
+    height: auto;
+}
+
+#fom {
+    max-width: 60px;
+    margin-top: 5px;
+}
+
+#badge {
+    margin-top: 25px;
+}

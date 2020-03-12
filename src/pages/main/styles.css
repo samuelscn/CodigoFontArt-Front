@@ -1,0 +1,40 @@
+#main {
+    padding: 10px;
+}
+
+.card {
+    width: 18rem;
+}
+
+#box {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#main p{
+    padding: 10px;
+
+}
+
+#actions {
+    margin-top: 7%;
+    border-radius: 25px;
+}
+
+#Box-Decoration {
+
+}
+
+.next-button {
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+    background: rgb(225,223,245);
+    background: linear-gradient(90deg, rgba(225,223,245,1) 14%, rgba(208,211,238,1) 33%, rgba(210,216,236,1) 52%, rgba(214,228,241,1) 72%);
+    border: 0;
+}
+
+button:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}

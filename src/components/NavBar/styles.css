@@ -1,0 +1,21 @@
+body#nav-bar {
+    background: white;
+    font-size: 10px;
+    box-shadow: 0 4px 4px -2px #989898;
+    -moz-box-shadow: 0 4px 4px -2px #989898;
+    -webkit-box-shadow: 0 4px 4px -2px #989898;
+}
+
+#navbarNavAltMarkup {
+    justify-content: center;
+    align-items: center;
+}
+
+#nav-item-one {
+    color: darkgrey;
+}
+
+#todas-categorias {
+    color: rgb(99,19,135);
+    font-size: 10px;
+}
