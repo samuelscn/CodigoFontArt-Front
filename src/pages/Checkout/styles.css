@@ -1,0 +1,10 @@
+.body-checkout {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.body-checkout img{
+    margin-left: 13%;
+}

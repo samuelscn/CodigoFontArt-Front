@@ -11,6 +11,7 @@ import Pesquisa from './pages/Pesquisa';
 import NotCart from './pages/NotCart';
 import AlertSucess from './pages/Alert';
 import AlertError from './pages/AlertError';
+import Checkout from './pages/Checkout';
 
 const Routes = () => (
   <BrowserRouter>
@@ -24,6 +25,7 @@ const Routes = () => (
           <Route path="/notcart" component={NotCart} />
           <Route path="/alertsucess" component={AlertSucess} />
           <Route path="/alerterror" component={AlertError} />
+          <Route path="/checkout" component={Checkout} />
       </Switch>
   </BrowserRouter>
 );

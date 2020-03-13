@@ -12,23 +12,30 @@ export default class Carrinho extends Component {
     state = {
         todosCarrinho: [],
         todosProdutos: [],
-        numero: 1
+        numero: 1,
+        priceTotal: 0
     };
 
     async componentDidMount() {
-        //const { id } = this.props.match.params;
 
         const response = await api.get("/todoscarrinho");
         const resposta = await api.get("/todosprodutos");
 
         this.setState({ todosCarrinho: response.data });
         this.setState({ todosProdutos: resposta.data });
+
+        this.state.todosProdutos.map(produto => (
+            this.state.todosCarrinho.map(carrinho => {
+                if(produto._id == carrinho.ArrayId) {
+                    this.setState({priceTotal: this.state.priceTotal + (produto.price*carrinho.QtdProduto)});
+                }
+            })
+        ))
+
     }
 
     excluirItemCarrinho = async (event) => {
         await api.delete(`/carrinho/${event}`);
-
-        console.log(this.state.todosCarrinho);
 
         if(this.state.todosCarrinho.length == 0) {
             window.location.href = "http://localhost:3000/notcart";
@@ -51,6 +58,12 @@ export default class Carrinho extends Component {
         }
     }
 
+    deleteAll = async () => {
+       await api.delete("/carrinho");
+
+       window.location.href = "http://localhost:3000/checkout";
+    }
+
     render() {
         const numero = this.state.numero;
         return (
@@ -66,7 +79,6 @@ export default class Carrinho extends Component {
                             this.state.todosCarrinho.map(carrinho => {
                         
                                 if(produto._id == carrinho.ArrayId) {
-                                    var aux = carrinho.QtdProduto;
                                     return(
                                         <div id="infozao">
                                             <img src={imagemProduto}/>
@@ -88,6 +100,10 @@ export default class Carrinho extends Component {
                                 }
                             })
                         ))}
+                        <div className="info-price-total">
+                            <text>Total:  {this.state.priceTotal},00</text>
+                            <button  onClick={this.deleteAll} class="btn btn-warning">Finalizar Compra</button>
+                        </div>
                 </div>
             </div>
         );

@@ -53,3 +53,17 @@
 #badge {
     margin-top: 25px;
 }
+
+.info-price-total {
+    padding: 10px;
+    background: rgb(99,19,135);
+    background: linear-gradient(90deg, rgba(99,19,135,1) 4%, rgba(93,5,168,1) 38%, rgba(129,10,187,1) 78%);
+    color: white;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.info-price-total text{
+    margin-top: 10px;
+    margin-right: 200px;
+}

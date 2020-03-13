@@ -31,9 +31,9 @@ export default class Header extends Component {
    }
 
    loadProdutos = async () => {
-       const response = await api.get("/produtos");
+       const response = await api.get("/todosprodutos");
 
-       this.setState({ produtos: response.data.docs });
+       this.setState({ produtos: response.data });
    }
 
    handlerSubmit = async (e) => {
