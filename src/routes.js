@@ -12,6 +12,9 @@ import NotCart from './pages/NotCart';
 import AlertSucess from './pages/Alert';
 import AlertError from './pages/AlertError';
 import Checkout from './pages/Checkout';
+import EditarProdutos from './pages/EditarProdutos';
+import Edit from './pages/Edit';
+import NoProduct from './pages/NoProduct';
 
 const Routes = () => (
   <BrowserRouter>
@@ -26,6 +29,9 @@ const Routes = () => (
           <Route path="/alertsucess" component={AlertSucess} />
           <Route path="/alerterror" component={AlertError} />
           <Route path="/checkout" component={Checkout} />
+          <Route path="/editarprodutos" component={EditarProdutos} />
+          <Route path="/edit/:id" component={Edit} />
+          <Route path="/noproduct" component={NoProduct} />
       </Switch>
   </BrowserRouter>
 );

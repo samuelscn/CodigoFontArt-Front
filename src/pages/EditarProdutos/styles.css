@@ -1,0 +1,19 @@
+.body-editar {
+    display: grid;
+    grid-row-gap: 15px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-column-gap: 5px;
+    margin-left: 30px;
+    margin-top: 10px;
+}
+
+.container{
+    padding: 5px;
+}
+
+.btn-danger{
+    margin-left: 5px;
+    box-shadow: 0 4px 4px -2px #989898;
+    -moz-box-shadow: 0 4px 4px -2px #989898;
+    -webkit-box-shadow: 0 4px 4px -2px #989898;
+}

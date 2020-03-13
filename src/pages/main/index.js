@@ -9,10 +9,19 @@ export default class Main extends Component {
     state = {
       produtos: [],
       produtoInfo: {},
-      page: 1
+      page: 1,
+      product: []
     };
 
-    componentDidMount() {
+    async componentDidMount() {
+        const resposta = await api.get("/todosprodutos");
+
+        this.setState({product: resposta.data });
+
+        if(this.state.product.length === 0) {
+            window.location.href = "http://localhost:3000/noproduct";
+        }
+
         this.loadProdutos();
     }
 
