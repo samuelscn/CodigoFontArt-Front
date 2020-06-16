@@ -17,7 +17,7 @@ Esse projeto foi criado por Samuel Silva Costa Nascimento
 ## ✦ Projeto
 <br>
 <div style="text-align: justify">
-O Site CodigoFontArt foi produzido como teste para o processo seletivo da empresa CodigoFont, com o intuito de demonstrar meu conhecimento em relação ao desenvolvimento Full Stack!
+O E-commerce CodigoFontArt foi produzido como teste para o processo seletivo da empresa CodigoFont, com o intuito de demonstrar meu conhecimento em relação ao desenvolvimento Full Stack!
 </div>
 
 ## ✦ Tecnologias
