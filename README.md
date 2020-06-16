@@ -4,20 +4,20 @@ Esse projeto foi criado por Samuel Silva Costa Nascimento
 
 ## ✦ Telas
 <h1 align="center">
-    <img alt="Telas" title="App" src="img/principal.jpg" width="150px"/>
-    <img alt="Telas" title="App" src="img/compra.jpg" width="150px"/>
-    <img alt="Telas" title="App" src="img/carrinho.jpg" width="150px"/>
-    <img alt="Telas" title="App" src="img/finalizada.jpg" width="150px"/>
-    <img alt="Telas" title="App" src="img/noitem.jpg" width="150px"/>
-    <img alt="Telas" title="App" src="img/noproduct.jpg" width="150px"/>
-    <img alt="Telas" title="App" src="img/editar.jpg" width="150px"/>
-    <img alt="Telas" title="App" src="img/editando.jpg" width="150px"/>
+    <img alt="Telas" title="App" src="img/principal.jpg" width="250px"/>
+    <img alt="Telas" title="App" src="img/compra.jpg" width="250px"/>
+    <img alt="Telas" title="App" src="img/carrinho.jpg" width="250px"/>
+    <img alt="Telas" title="App" src="img/finalizada.jpg" width="250px"/>
+    <img alt="Telas" title="App" src="img/noitem.jpg" width="250px"/>
+    <img alt="Telas" title="App" src="img/noproduct.jpg" width="250px"/>
+    <img alt="Telas" title="App" src="img/editar.jpg" width="250px"/>
+    <img alt="Telas" title="App" src="img/editando.jpg" width="250px"/>
 </h1>
 
 ## ✦ Projeto
 <br>
 <div style="text-align: justify">
-O Site CodigoFontArt foi produzido como teste para o processo seletivo da empresa CodigoFont, com o intuito de demonstrar meu conhecimento em relação ao desenvolvimento full stack!
+O Site CodigoFontArt foi produzido como teste para o processo seletivo da empresa CodigoFont, com o intuito de demonstrar meu conhecimento em relação ao desenvolvimento Full Stack!
 </div>
 
 ## ✦ Tecnologias
