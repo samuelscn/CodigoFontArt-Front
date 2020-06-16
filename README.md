@@ -4,14 +4,14 @@ Esse projeto foi criado por Samuel Silva Costa Nascimento
 
 ## ✦ Telas
 <h1 align="center">
-    <img alt="Telas" title="App" src="img/principal.jpg" width="450px"/>
-    <img alt="Telas" title="App" src="img/compra.jpg" width="450px"/>
-    <img alt="Telas" title="App" src="img/carrinho.jpg" width="450px"/>
-    <img alt="Telas" title="App" src="img/finalizada.jpg" width="450px"/>
-    <img alt="Telas" title="App" src="img/noitem.jpg" width="450px"/>
-    <img alt="Telas" title="App" src="img/noproduct.jpg" width="450px"/>
-    <img alt="Telas" title="App" src="img/editar.jpg" width="450px"/>
-    <img alt="Telas" title="App" src="img/editando.jpg" width="450px"/>
+    <img alt="Telas" title="App" src="img/principal.jpg" width="350px"/>
+    <img alt="Telas" title="App" src="img/compra.jpg" width="350px"/>
+    <img alt="Telas" title="App" src="img/carrinho.jpg" width="350px"/>
+    <img alt="Telas" title="App" src="img/finalizada.jpg" width="350px"/>
+    <img alt="Telas" title="App" src="img/noitem.jpg" width="350px"/>
+    <img alt="Telas" title="App" src="img/noproduct.jpg" width="350px"/>
+    <img alt="Telas" title="App" src="img/editar.jpg" width="350px"/>
+    <img alt="Telas" title="App" src="img/editando.jpg" width="350px"/>
 </h1>
 
 ## ✦ Projeto
